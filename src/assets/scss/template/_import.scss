@@ -1,0 +1,88 @@
+/*------ Import.io styles ------*/
+
+/*------ Variables ------*/
+
+$headline: 'Cabin', sans-serif;
+$paragraph: 'Open Sans', sans-serif;
+
+$blue: #312BAB;
+$pink: #D32C92;
+$lightGray: #F1F1F1;
+$almostBlack: #3C3B3B;
+
+/*------ Text ------*/
+
+h2,
+h4,
+p {
+  color: $almostBlack;
+}
+
+h2,
+h4,
+a {
+  font-family: $headline;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: $paragraph;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+}
+
+
+/*------ Mods ------*/
+
+table.button.large table a {
+  font-family: $headline;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px 40px;
+}
+
+.tagline {
+  text-transform: uppercase;
+  color: $pink;
+  font-family: $paragraph !important;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 1px;
+  a {
+    font-family: $paragraph !important;
+    font-weight: 600;
+    font-size: 16px !important;
+  }
+}
+
+.join-us {
+  font-size: 14px;
+  padding: 4px 8px;
+  background-color: $lightGray;
+}
+
+.articles img {
+  width: 265px;
+}
+
+/*------ Footer ------*/
+
+.footer {
+  background-color: $blue;
+  th.columns {
+    padding-bottom: 0 !important;
+  }
+  img {
+    width: 30px !important;
+  }
+}
+
+.bottom {
+  background-color: $blue;
+  p {
+    color: white;
+    font-size: 10px !important;
+    margin: 0;
+  }
+}
